@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68fad49463268d4aa088fd2b6776e7a1",
+    "content-hash": "166317594d5bcbb660997ff50534490d",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1957,6 +1957,67 @@
                 }
             ],
             "time": "2025-02-03T10:55:03+00:00"
+        },
+        {
+            "name": "jsdatarocks/core",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsdatarocks/core.git",
+                "reference": "cd284455b31aca33a562017dd4992eac6fd1c225"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsdatarocks/core/zipball/cd284455b31aca33a562017dd4992eac6fd1c225",
+                "reference": "cd284455b31aca33a562017dd4992eac6fd1c225",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^3.3",
+                "illuminate/contracts": "^10.0|^11.0|^12.0",
+                "illuminate/database": "^10.0|^11.0|^v12.0",
+                "illuminate/support": "^10.0|^11.0|^v12.0",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "illuminate/filesystem": "*",
+                "laravel/pint": "^v1.21",
+                "nunomaduro/collision": "^v8.6",
+                "orchestra/testbench": "^8.0|^9.0|^v10.0",
+                "pestphp/pest": "^v3.7",
+                "pestphp/pest-plugin-laravel": "^v3.1",
+                "phpstan/phpstan": "^1.10|^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JsDataRocks\\Core\\CoreServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsDataRocks\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JSDataRocks",
+                    "email": "contato@jsdatarocks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pacote Laravel com classes utilitárias",
+            "homepage": "https://github.com/jsdatarocks/core",
+            "support": {
+                "source": "https://github.com/jsdatarocks/core/tree/1.0.4"
+            },
+            "time": "2025-03-26T03:27:21+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
