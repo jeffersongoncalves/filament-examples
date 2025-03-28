@@ -18,6 +18,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use JsDataRocks\Core\Core;
+use TallStackUIFilament\TallStackUIPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -57,6 +58,7 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->plugins([
                 Core::make(),
+                TallStackUIPlugin::make(),
             ]);
     }
 }

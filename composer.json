@@ -7,6 +7,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "andrefelipe18/tallstackuifilament": "^1.0",
         "filament/filament": "^3.3",
         "jsdatarocks/core": "^1.0",
         "laravel/framework": "^12.0",
